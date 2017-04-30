@@ -1,0 +1,4021 @@
+{
+"type": "FeatureCollection",
+"metadata": {
+"generated": 1493502562000,
+"url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson",
+"title": "USGS Magnitude 4.5+ Earthquakes, Past Week",
+"status": 200,
+"api": "1.5.7",
+"count": 100
+},
+"features": [
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "38km E of Nishinoomote, Japan",
+"time": 1493497378240,
+"updated": 1493499398040,
+"tz": 540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m2m",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m2m.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 385,
+"net": "us",
+"code": "10008m2m",
+"ids": ",us10008m2m,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.093,
+"rms": 0.96,
+"gap": 116,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 38km E of Nishinoomote, Japan"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.3963,
+30.7721,
+12.05
+]
+},
+"id": "us10008m2m"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "52km SW of Burias, Philippines",
+"time": 1493494925040,
+"updated": 1493501549040,
+"tz": 480,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m2k",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m2k.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008m2k",
+"ids": ",us10008m2k,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.803,
+"rms": 1.16,
+"gap": 103,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 52km SW of Burias, Philippines"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+124.9272,
+5.3758,
+10
+]
+},
+"id": "us10008m2k"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "38km E of Nishinoomote, Japan",
+"time": 1493494848540,
+"updated": 1493500216040,
+"tz": 540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m2i",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m2i.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008m2i",
+"ids": ",us10008m2i,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.09,
+"rms": 0.55,
+"gap": 126,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - 38km E of Nishinoomote, Japan"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.3981,
+30.7776,
+10
+]
+},
+"id": "us10008m2i"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "85km SSE of Padangsidempuan, Indonesia",
+"time": 1493488341730,
+"updated": 1493500768040,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m1q",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m1q.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008m1q",
+"ids": ",us10008m1q,",
+"sources": ",us,",
+"types": ",geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 1.588,
+"rms": 0.91,
+"gap": 128,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.7 - 85km SSE of Padangsidempuan, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+99.4796,
+0.627,
+10
+]
+},
+"id": "us10008m1q"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "147km SSE of Ngulung Wetan, Indonesia",
+"time": 1493480759130,
+"updated": 1493481727040,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m0z",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m0z.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 354,
+"net": "us",
+"code": "10008m0z",
+"ids": ",us10008m0z,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.077,
+"rms": 0.96,
+"gap": 127,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 147km SSE of Ngulung Wetan, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+111.759,
+-9.6031,
+48.07
+]
+},
+"id": "us10008m0z"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "148km SSW of Tambakrejo, Indonesia",
+"time": 1493476205960,
+"updated": 1493478400040,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m0t",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m0t.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 369,
+"net": "us",
+"code": "10008m0t",
+"ids": ",us10008m0t,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.108,
+"rms": 0.93,
+"gap": 130,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 148km SSW of Tambakrejo, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+111.8023,
+-9.6106,
+26.24
+]
+},
+"id": "us10008m0t"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "32km E of Nishinoomote, Japan",
+"time": 1493473233080,
+"updated": 1493474760040,
+"tz": 540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m0m",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m0m.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008m0m",
+"ids": ",us10008m0m,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.085,
+"rms": 1.16,
+"gap": 126,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.6 - 32km E of Nishinoomote, Japan"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.343,
+30.7349,
+28.94
+]
+},
+"id": "us10008m0m"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.7,
+"place": "42km ENE of Nishinoomote, Japan",
+"time": 1493469152690,
+"updated": 1493483275040,
+"tz": 540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m0g",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m0g.geojson",
+"felt": 5,
+"cdi": 3.4,
+"mmi": 4.37,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 0,
+"sig": 502,
+"net": "us",
+"code": "10008m0g",
+"ids": ",us10008m0g,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 1.087,
+"rms": 0.84,
+"gap": 28,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.7 - 42km ENE of Nishinoomote, Japan"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+131.4291,
+30.8134,
+21.39
+]
+},
+"id": "us10008m0g"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.2,
+"place": "111km NNW of Talkeetna, Alaska",
+"time": 1493464548886,
+"updated": 1493500176452,
+"tz": -540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak15831649",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak15831649.geojson",
+"felt": 35,
+"cdi": 3.8,
+"mmi": 5.62,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 429,
+"net": "ak",
+"code": "15831649",
+"ids": ",ak15831649,us10008m06,",
+"sources": ",ak,us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": null,
+"rms": 0.65,
+"gap": null,
+"magType": "ml",
+"type": "earthquake",
+"title": "M 5.2 - 111km NNW of Talkeetna, Alaska"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-151.1517,
+63.1296,
+10.8
+]
+},
+"id": "ak15831649"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.3,
+"place": "88km ESE of Kalemie, Democratic Republic of the Congo",
+"time": 1493463202570,
+"updated": 1493464539040,
+"tz": 180,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008m05",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008m05.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 432,
+"net": "us",
+"code": "10008m05",
+"ids": ",us10008m05,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 5.547,
+"rms": 1.21,
+"gap": 42,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.3 - 88km ESE of Kalemie, Democratic Republic of the Congo"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+29.9683,
+-6.1323,
+10
+]
+},
+"id": "us10008m05"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.2,
+"place": "13km NE of La Cumbre, Colombia",
+"time": 1493460394790,
+"updated": 1493482506658,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lzv",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lzv.geojson",
+"felt": 36,
+"cdi": 3.9,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 430,
+"net": "us",
+"code": "10008lzv",
+"ids": ",us10008lzv,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 1.907,
+"rms": 1.14,
+"gap": 68,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.2 - 13km NE of La Cumbre, Colombia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.9226,
+3.7945,
+77.61
+]
+},
+"id": "us10008lzv"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.6,
+"place": "152km SSW of Tambakrejo, Indonesia",
+"time": 1493460132810,
+"updated": 1493467509646,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lzr",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lzr.geojson",
+"felt": null,
+"cdi": null,
+"mmi": 3.38,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 1,
+"sig": 482,
+"net": "us",
+"code": "10008lzr",
+"ids": ",us10008lzr,",
+"sources": ",us,",
+"types": ",geoserve,losspager,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 2.174,
+"rms": 1.56,
+"gap": 39,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.6 - 152km SSW of Tambakrejo, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+111.8448,
+-9.662,
+10
+]
+},
+"id": "us10008lzr"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "106km ESE of Pangai, Tonga",
+"time": 1493455813340,
+"updated": 1493458284040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lz3",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lz3.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 354,
+"net": "us",
+"code": "10008lz3",
+"ids": ",us10008lz3,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 3.454,
+"rms": 1,
+"gap": 88,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 106km ESE of Pangai, Tonga"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-173.4074,
+-20.1632,
+10
+]
+},
+"id": "us10008lz3"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "144km S of Itoman, Japan",
+"time": 1493454985550,
+"updated": 1493456016040,
+"tz": 540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lyy",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lyy.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 385,
+"net": "us",
+"code": "10008lyy",
+"ids": ",us10008lyy,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.012,
+"rms": 0.69,
+"gap": 100,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 144km S of Itoman, Japan"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+127.9106,
+24.8421,
+10
+]
+},
+"id": "us10008lyy"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "34km SW of Valparaiso, Chile",
+"time": 1493430362100,
+"updated": 1493495810425,
+"tz": -240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lwz",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lwz.geojson",
+"felt": 25,
+"cdi": 5.3,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 398,
+"net": "us",
+"code": "10008lwz",
+"ids": ",us10008lwz,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.311,
+"rms": 0.71,
+"gap": 68,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 34km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9235,
+-33.2224,
+15.65
+]
+},
+"id": "us10008lwz"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "42km WNW of Cartagena, Chile",
+"time": 1493428115080,
+"updated": 1493432204194,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lwq",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lwq.geojson",
+"felt": 1,
+"cdi": 2.7,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008lwq",
+"ids": ",us10008lwq,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.436,
+"rms": 1.07,
+"gap": 81,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - 42km WNW of Cartagena, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9906,
+-33.3534,
+19.61
+]
+},
+"id": "us10008lwq"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "84km SSW of Chichi-shima, Japan",
+"time": 1493413269590,
+"updated": 1493502503040,
+"tz": 540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008ltv",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008ltv.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008ltv",
+"ids": ",us10008ltv,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.763,
+"rms": 1.09,
+"gap": 103,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.6 - 84km SSW of Chichi-shima, Japan"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.0203,
+26.3434,
+41.36
+]
+},
+"id": "us10008ltv"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 6.9,
+"place": "28km SW of Burias, Philippines",
+"time": 1493410997320,
+"updated": 1493495240992,
+"tz": 480,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008ls4",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008ls4.geojson",
+"felt": 104,
+"cdi": 8,
+"mmi": 7.23,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 1,
+"sig": 816,
+"net": "us",
+"code": "10008ls4",
+"ids": ",at00op4zax,pt17118001,us10008ls4,",
+"sources": ",at,pt,us,",
+"types": ",dyfi,geoserve,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 5.231,
+"rms": 0.98,
+"gap": 23,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 6.9 - 28km SW of Burias, Philippines"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+125.0933,
+5.5164,
+26
+]
+},
+"id": "us10008ls4"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.3,
+"place": "40km SW of Valparaiso, Chile",
+"time": 1493401309050,
+"updated": 1493479849372,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lnm",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lnm.geojson",
+"felt": 10,
+"cdi": 6.6,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 439,
+"net": "us",
+"code": "10008lnm",
+"ids": ",us10008lnm,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.372,
+"rms": 0.7,
+"gap": 61,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.3 - 40km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9666,
+-33.2734,
+18.44
+]
+},
+"id": "us10008lnm"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "50km WSW of Valparaiso, Chile",
+"time": 1493401268410,
+"updated": 1493484679484,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lnk",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lnk.geojson",
+"felt": 1,
+"cdi": 2,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008lnk",
+"ids": ",us10008lnk,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.453,
+"rms": 0.84,
+"gap": 137,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - 50km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1205,
+-33.2258,
+18.52
+]
+},
+"id": "us10008lnk"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "50km WSW of Valparaiso, Chile",
+"time": 1493399379650,
+"updated": 1493474914491,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lmu",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lmu.geojson",
+"felt": 1,
+"cdi": 4.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008lmu",
+"ids": ",us10008lmu,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.453,
+"rms": 0.73,
+"gap": 70,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.6 - 50km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1364,
+-33.1962,
+19.63
+]
+},
+"id": "us10008lmu"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "56km WSW of Valparaiso, Chile",
+"time": 1493396322070,
+"updated": 1493400310568,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lm7",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lm7.geojson",
+"felt": 1,
+"cdi": 3.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008lm7",
+"ids": ",us10008lm7,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.506,
+"rms": 1.31,
+"gap": 138,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 56km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1957,
+-33.2149,
+10
+]
+},
+"id": "us10008lm7"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.7,
+"place": "20km WSW of Valparaiso, Chile",
+"time": 1493395555410,
+"updated": 1493494141765,
+"tz": -240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lm3",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lm3.geojson",
+"felt": 50,
+"cdi": 7.9,
+"mmi": 5.72,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 0,
+"sig": 539,
+"net": "us",
+"code": "10008lm3",
+"ids": ",us10008lm3,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 0.563,
+"rms": 0.97,
+"gap": 61,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.7 - 20km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.8243,
+-33.1204,
+14.31
+]
+},
+"id": "us10008lm3"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.3,
+"place": "43km WSW of Valparaiso, Chile",
+"time": 1493395114230,
+"updated": 1493431696931,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lm1",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lm1.geojson",
+"felt": 2,
+"cdi": 6.4,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 433,
+"net": "us",
+"code": "10008lm1",
+"ids": ",us10008lm1,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.391,
+"rms": 0.87,
+"gap": 103,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 5.3 - 43km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.027,
+-33.2387,
+24.19
+]
+},
+"id": "us10008lm1"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "47km WSW of Valparaiso, Chile",
+"time": 1493395019680,
+"updated": 1493417852417,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008llu",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008llu.geojson",
+"felt": 1,
+"cdi": 2.5,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008llu",
+"ids": ",us10008llu,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.429,
+"rms": 0.76,
+"gap": 173,
+"magType": "ml",
+"type": "earthquake",
+"title": "M 4.5 - 47km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.057,
+-33.2695,
+23.63
+]
+},
+"id": "us10008llu"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.2,
+"place": "26km SW of Valparaiso, Chile",
+"time": 1493394580100,
+"updated": 1493431335546,
+"tz": -240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008llp",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008llp.geojson",
+"felt": 2,
+"cdi": 4.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 417,
+"net": "us",
+"code": "10008llp",
+"ids": ",us10008llp,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.245,
+"rms": 1.14,
+"gap": 67,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.2 - 26km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.8539,
+-33.189,
+10
+]
+},
+"id": "us10008llp"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "38km SW of Valparaiso, Chile",
+"time": 1493394023780,
+"updated": 1493405487881,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lli",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lli.geojson",
+"felt": 1,
+"cdi": 5,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 370,
+"net": "us",
+"code": "10008lli",
+"ids": ",us10008lli,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.352,
+"rms": 0.93,
+"gap": 130,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 38km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9475,
+-33.2619,
+20
+]
+},
+"id": "us10008lli"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "43km SW of Valparaiso, Chile",
+"time": 1493393609150,
+"updated": 1493405456898,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008llm",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008llm.geojson",
+"felt": 1,
+"cdi": 6.1,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 385,
+"net": "us",
+"code": "10008llm",
+"ids": ",us10008llm,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.393,
+"rms": 0.68,
+"gap": 152,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 43km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.982,
+-33.2898,
+21.48
+]
+},
+"id": "us10008llm"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.9,
+"place": "41km SW of Valparaiso, Chile",
+"time": 1493393405400,
+"updated": 1493484574997,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008llg",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008llg.geojson",
+"felt": 324,
+"cdi": 6.8,
+"mmi": 4.48,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 0,
+"sig": 756,
+"net": "us",
+"code": "10008llg",
+"ids": ",us10008llg,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 0.375,
+"rms": 1.33,
+"gap": 69,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.9 - 41km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9968,
+-33.2469,
+20.41
+]
+},
+"id": "us10008llg"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "16km NNW of Belen, Nicaragua",
+"time": 1493365983370,
+"updated": 1493367058040,
+"tz": -360,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lix",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lix.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008lix",
+"ids": ",us10008lix,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.674,
+"rms": 0.58,
+"gap": 134,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.6 - 16km NNW of Belen, Nicaragua"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-85.9694,
+11.6258,
+176.38
+]
+},
+"id": "us10008lix"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "44km SSW of Tanaga Volcano, Alaska",
+"time": 1493360606820,
+"updated": 1493401838702,
+"tz": -600,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lih",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lih.geojson",
+"felt": null,
+"cdi": null,
+"mmi": 3.58,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008lih",
+"ids": ",ak15824251,us10008lih,",
+"sources": ",ak,us,",
+"types": ",geoserve,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 0.828,
+"rms": 1.02,
+"gap": 69,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 44km SSW of Tanaga Volcano, Alaska"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-178.3653,
+51.5121,
+51.6
+]
+},
+"id": "us10008lih"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "28km SW of Bokonbayevo, Kyrgyzstan",
+"time": 1493355686210,
+"updated": 1493361894174,
+"tz": 360,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008li5",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008li5.geojson",
+"felt": 5,
+"cdi": 4.1,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 357,
+"net": "us",
+"code": "10008li5",
+"ids": ",us10008li5,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.824,
+"rms": 0.9,
+"gap": 71,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 28km SW of Bokonbayevo, Kyrgyzstan"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+76.7602,
+41.9297,
+15.09
+]
+},
+"id": "us10008li5"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "45km SE of Watubuku, Indonesia",
+"time": 1493355639450,
+"updated": 1493357565040,
+"tz": 480,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008li6",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008li6.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008li6",
+"ids": ",us10008li6,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.801,
+"rms": 1.27,
+"gap": 97,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - 45km SE of Watubuku, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+122.9882,
+-8.9407,
+113.67
+]
+},
+"id": "us10008li6"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "81km SSW of Masachapa, Nicaragua",
+"time": 1493341828220,
+"updated": 1493343846040,
+"tz": -360,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lh2",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lh2.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008lh2",
+"ids": ",us10008lh2,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.21,
+"rms": 0.86,
+"gap": 154,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - 81km SSW of Masachapa, Nicaragua"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-86.8096,
+11.1131,
+34.7
+]
+},
+"id": "us10008lh2"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "72km SSE of Little Sitkin Island, Alaska",
+"time": 1493336350120,
+"updated": 1493443591040,
+"tz": 720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lg1",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lg1.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 385,
+"net": "us",
+"code": "10008lg1",
+"ids": ",ak15823591,us10008lg1,",
+"sources": ",ak,us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.61,
+"rms": 0.68,
+"gap": 123,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 72km SSE of Little Sitkin Island, Alaska"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+178.753,
+51.3154,
+42.63
+]
+},
+"id": "us10008lg1"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "134km E of Sur, Oman",
+"time": 1493328449070,
+"updated": 1493329875040,
+"tz": 240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lf3",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lf3.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 354,
+"net": "us",
+"code": "10008lf3",
+"ids": ",us10008lf3,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 4.78,
+"rms": 1.26,
+"gap": 77,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 134km E of Sur, Oman"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+60.8252,
+22.7097,
+10
+]
+},
+"id": "us10008lf3"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.5,
+"place": "62km S of Hihifo, Tonga",
+"time": 1493318802410,
+"updated": 1493392697040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008ld1",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008ld1.geojson",
+"felt": 1,
+"cdi": 2.2,
+"mmi": 3.94,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 0,
+"sig": 466,
+"net": "us",
+"code": "10008ld1",
+"ids": ",us10008ld1,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 3.165,
+"rms": 0.88,
+"gap": 27,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.5 - 62km S of Hihifo, Tonga"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-173.6705,
+-16.5095,
+33.32
+]
+},
+"id": "us10008ld1"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.7,
+"place": "77km S of Little Sitkin Island, Alaska",
+"time": 1493304393600,
+"updated": 1493311718182,
+"tz": 720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lai",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lai.geojson",
+"felt": null,
+"cdi": null,
+"mmi": 4.36,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 1,
+"sig": 500,
+"net": "us",
+"code": "10008lai",
+"ids": ",at00op2p1m,ak15822302,us10008lai,",
+"sources": ",at,ak,us,",
+"types": ",geoserve,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 2.707,
+"rms": 1.29,
+"gap": 125,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.7 - 77km S of Little Sitkin Island, Alaska"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+178.6165,
+51.2571,
+19
+]
+},
+"id": "us10008lai"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.1,
+"place": "210km WNW of Visokoi Island, South Georgia and the South Sandwich Islands",
+"time": 1493300120340,
+"updated": 1493301139040,
+"tz": -120,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008lac",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008lac.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 400,
+"net": "us",
+"code": "10008lac",
+"ids": ",us10008lac,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 19.657,
+"rms": 1.18,
+"gap": 77,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.1 - 210km WNW of Visokoi Island, South Georgia and the South Sandwich Islands"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-30.2192,
+-55.8317,
+32.86
+]
+},
+"id": "us10008lac"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "164km S of Methoni, Greece",
+"time": 1493294667150,
+"updated": 1493295756040,
+"tz": 60,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l9j",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l9j.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 369,
+"net": "us",
+"code": "10008l9j",
+"ids": ",us10008l9j,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.867,
+"rms": 0.91,
+"gap": 59,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 164km S of Methoni, Greece"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+21.4233,
+35.3519,
+10
+]
+},
+"id": "us10008l9j"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "93km W of Kirakira, Solomon Islands",
+"time": 1493285478750,
+"updated": 1493286770040,
+"tz": 660,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l93",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l93.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 369,
+"net": "us",
+"code": "10008l93",
+"ids": ",us10008l93,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.458,
+"rms": 1.14,
+"gap": 96,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 93km W of Kirakira, Solomon Islands"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+161.065,
+-10.4013,
+45.65
+]
+},
+"id": "us10008l93"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "38km SW of Valparaiso, Chile",
+"time": 1493281480170,
+"updated": 1493315931593,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l8p",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l8p.geojson",
+"felt": 11,
+"cdi": 4.6,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 345,
+"net": "us",
+"code": "10008l8p",
+"ids": ",us10008l8p,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.349,
+"rms": 0.68,
+"gap": 68,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.7 - 38km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9474,
+-33.2566,
+20.87
+]
+},
+"id": "us10008l8p"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "58km SSW of Krajan Tambakrejo, Indonesia",
+"time": 1493276592880,
+"updated": 1493282720040,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l8g",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l8g.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008l8g",
+"ids": ",us10008l8g,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.713,
+"rms": 1.36,
+"gap": 116,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.6 - 58km SSW of Krajan Tambakrejo, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+112.4672,
+-8.8752,
+71.21
+]
+},
+"id": "us10008l8g"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "43km SW of Valparaiso, Chile",
+"time": 1493269762630,
+"updated": 1493316002718,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l82",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l82.geojson",
+"felt": 57,
+"cdi": 6.3,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 421,
+"net": "us",
+"code": "10008l82",
+"ids": ",us10008l82,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.392,
+"rms": 0.79,
+"gap": 69,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 5.0 - 43km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9789,
+-33.2919,
+20.06
+]
+},
+"id": "us10008l82"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "Central Mid-Atlantic Ridge",
+"time": 1493264754490,
+"updated": 1493265842040,
+"tz": -180,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l7j",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l7j.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 369,
+"net": "us",
+"code": "10008l7j",
+"ids": ",us10008l7j,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 21.699,
+"rms": 0.91,
+"gap": 124,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - Central Mid-Atlantic Ridge"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-39.5793,
+8.4821,
+10
+]
+},
+"id": "us10008l7j"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "Carlsberg Ridge",
+"time": 1493247472580,
+"updated": 1493248557040,
+"tz": 240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l6c",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l6c.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008l6c",
+"ids": ",us10008l6c,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 14.396,
+"rms": 0.73,
+"gap": 144,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - Carlsberg Ridge"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+57.4229,
+10.0526,
+10
+]
+},
+"id": "us10008l6c"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "Pacific-Antarctic Ridge",
+"time": 1493245711470,
+"updated": 1493318200040,
+"tz": -540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l61",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l61.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 385,
+"net": "us",
+"code": "10008l61",
+"ids": ",us10008l61,",
+"sources": ",us,",
+"types": ",geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 31.379,
+"rms": 1.11,
+"gap": 88,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - Pacific-Antarctic Ridge"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-130.3338,
+-54.9267,
+10
+]
+},
+"id": "us10008l61"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "189km SSW of Ndoi Island, Fiji",
+"time": 1493245519790,
+"updated": 1493246581040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l5y",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l5y.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008l5y",
+"ids": ",us10008l5y,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 4.909,
+"rms": 0.78,
+"gap": 110,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 189km SSW of Ndoi Island, Fiji"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-179.5842,
+-22.1451,
+574.18
+]
+},
+"id": "us10008l5y"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.4,
+"place": "102km ENE of Iquique, Chile",
+"time": 1493230352580,
+"updated": 1493317668185,
+"tz": -240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l3j",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l3j.geojson",
+"felt": 6,
+"cdi": 2.9,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 450,
+"net": "us",
+"code": "10008l3j",
+"ids": ",us10008l3j,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.128,
+"rms": 1.09,
+"gap": 84,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.4 - 102km ENE of Iquique, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-69.3219,
+-19.7143,
+108.39
+]
+},
+"id": "us10008l3j"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "284km SE of Lambasa, Fiji",
+"time": 1493227873810,
+"updated": 1493241174040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l2y",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l2y.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 385,
+"net": "us",
+"code": "10008l2y",
+"ids": ",us10008l2y,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 3.319,
+"rms": 0.93,
+"gap": 74,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 284km SE of Lambasa, Fiji"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-178.4681,
+-17.9432,
+568.32
+]
+},
+"id": "us10008l2y"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "134km ESE of Pangai, Tonga",
+"time": 1493213152940,
+"updated": 1493214487040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008l0n",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008l0n.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 354,
+"net": "us",
+"code": "10008l0n",
+"ids": ",us10008l0n,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 3.431,
+"rms": 1.28,
+"gap": 89,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 134km ESE of Pangai, Tonga"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-173.2687,
+-20.4516,
+10
+]
+},
+"id": "us10008l0n"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "158km NE of Petropavlovsk-Kamchatskiy, Russia",
+"time": 1493190148950,
+"updated": 1493272104263,
+"tz": 660,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008ky0",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008ky0.geojson",
+"felt": 1,
+"cdi": 3.1,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 370,
+"net": "us",
+"code": "10008ky0",
+"ids": ",us10008ky0,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.441,
+"rms": 1.19,
+"gap": 80,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 158km NE of Petropavlovsk-Kamchatskiy, Russia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+160.6455,
+53.8285,
+39.75
+]
+},
+"id": "us10008ky0"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "39km SSE of Tobelo, Indonesia",
+"time": 1493182322670,
+"updated": 1493183735040,
+"tz": 540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kxh",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kxh.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 1,
+"sig": 385,
+"net": "us",
+"code": "10008kxh",
+"ids": ",us10008kxh,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.956,
+"rms": 0.71,
+"gap": 82,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 39km SSE of Tobelo, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+128.108,
+1.3806,
+96.51
+]
+},
+"id": "us10008kxh"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.2,
+"place": "282km NNW of Scott Island Bank, Antarctica",
+"time": 1493155227530,
+"updated": 1493156268040,
+"tz": 720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kv0",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kv0.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 416,
+"net": "us",
+"code": "10008kv0",
+"ids": ",us10008kv0,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 13.338,
+"rms": 0.35,
+"gap": 127,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.2 - 282km NNW of Scott Island Bank, Antarctica"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+177.8576,
+-65.0051,
+10
+]
+},
+"id": "us10008kv0"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "66km ESE of Cold Bay, Alaska",
+"time": 1493141028600,
+"updated": 1493215923040,
+"tz": -540,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008krp",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008krp.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008krp",
+"ids": ",ak15819209,us10008krp,",
+"sources": ",ak,us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": null,
+"rms": 1.49,
+"gap": null,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - 66km ESE of Cold Bay, Alaska"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-161.7246,
+54.9988,
+90.6
+]
+},
+"id": "us10008krp"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "46km SW of Valparaiso, Chile",
+"time": 1493138916000,
+"updated": 1493156248626,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kr8",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kr8.geojson",
+"felt": 2,
+"cdi": 4.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008kr8",
+"ids": ",us10008kr8,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": null,
+"rms": 0.58,
+"gap": null,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.6 - 46km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.006,
+-33.308,
+18.1
+]
+},
+"id": "us10008kr8"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "53km SW of Tugu Hilir, Indonesia",
+"time": 1493138258050,
+"updated": 1493151897040,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kr2",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kr2.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008kr2",
+"ids": ",us10008kr2,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 3.653,
+"rms": 0.94,
+"gap": 154,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 53km SW of Tugu Hilir, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+105.3136,
+-7.1802,
+35
+]
+},
+"id": "us10008kr2"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "55km SE of Santiago de Cuba, Cuba",
+"time": 1493131378880,
+"updated": 1493154382737,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kpi",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kpi.geojson",
+"felt": 27,
+"cdi": 4.6,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 352,
+"net": "us",
+"code": "10008kpi",
+"ids": ",us10008kpi,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.439,
+"rms": 0.63,
+"gap": 29,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 55km SE of Santiago de Cuba, Cuba"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-75.471,
+19.6456,
+23.35
+]
+},
+"id": "us10008kpi"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.3,
+"place": "112km SE of Pangai, Tonga",
+"time": 1493130914840,
+"updated": 1493149053040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kp9",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kp9.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 432,
+"net": "us",
+"code": "10008kp9",
+"ids": ",us10008kp9,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 8.352,
+"rms": 0.88,
+"gap": 64,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.3 - 112km SE of Pangai, Tonga"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-173.6122,
+-20.5343,
+10
+]
+},
+"id": "us10008kp9"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "54km W of Valparaiso, Chile",
+"time": 1493122403180,
+"updated": 1493135069301,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kmi",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kmi.geojson",
+"felt": 5,
+"cdi": 5.7,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 343,
+"net": "us",
+"code": "10008kmi",
+"ids": ",us10008kmi,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.481,
+"rms": 1.36,
+"gap": 78,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.7 - 54km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1964,
+-33.1324,
+18.01
+]
+},
+"id": "us10008kmi"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "38km ENE of Port-Olry, Vanuatu",
+"time": 1493120177220,
+"updated": 1493122897040,
+"tz": 660,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kma",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kma.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 354,
+"net": "us",
+"code": "10008kma",
+"ids": ",us10008kma,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 5.843,
+"rms": 1.38,
+"gap": 55,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 38km ENE of Port-Olry, Vanuatu"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+167.3783,
+-14.9027,
+117.85
+]
+},
+"id": "us10008kma"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "100km WSW of San Antonio de los Cobres, Argentina",
+"time": 1493115473010,
+"updated": 1493116650040,
+"tz": -180,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kle",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kle.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008kle",
+"ids": ",us10008kle,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.22,
+"rms": 0.61,
+"gap": 59,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.6 - 100km WSW of San Antonio de los Cobres, Argentina"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-67.2856,
+-24.4221,
+207.37
+]
+},
+"id": "us10008kle"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.6,
+"place": "55km W of Valparaiso, Chile",
+"time": 1493089342020,
+"updated": 1493182647073,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008khr",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008khr.geojson",
+"felt": 2,
+"cdi": 2.2,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 326,
+"net": "us",
+"code": "10008khr",
+"ids": ",us10008khr,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.495,
+"rms": 1.03,
+"gap": 179,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.6 - 55km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.2148,
+-33.1266,
+23.38
+]
+},
+"id": "us10008khr"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.1,
+"place": "41km WSW of Valparaiso, Chile",
+"time": 1493084583590,
+"updated": 1493246099040,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kgt",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kgt.geojson",
+"felt": 22,
+"cdi": 5.3,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 412,
+"net": "us",
+"code": "10008kgt",
+"ids": ",us10008kgt,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.367,
+"rms": 1,
+"gap": 72,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 5.1 - 41km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.0489,
+-33.1488,
+19.88
+]
+},
+"id": "us10008kgt"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "45km WSW of Valparaiso, Chile",
+"time": 1493083994480,
+"updated": 1493086673930,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kgk",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kgk.geojson",
+"felt": 1,
+"cdi": 4.3,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008kgk",
+"ids": ",us10008kgk,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.404,
+"rms": 0.71,
+"gap": 137,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.7 - 45km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.093,
+-33.1559,
+18.57
+]
+},
+"id": "us10008kgk"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "48km WSW of Valparaiso, Chile",
+"time": 1493079455430,
+"updated": 1493086043662,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kfs",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kfs.geojson",
+"felt": 2,
+"cdi": 4.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008kfs",
+"ids": ",us10008kfs,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.432,
+"rms": 0.96,
+"gap": 70,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.5 - 48km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1312,
+-33.1463,
+20.41
+]
+},
+"id": "us10008kfs"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "39km SW of Valparaiso, Chile",
+"time": 1493078084940,
+"updated": 1493080714033,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kfg",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kfg.geojson",
+"felt": 9,
+"cdi": 5.5,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 345,
+"net": "us",
+"code": "10008kfg",
+"ids": ",us10008kfg,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.361,
+"rms": 0.84,
+"gap": 68,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.7 - 39km SW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9411,
+-33.2801,
+22.6
+]
+},
+"id": "us10008kfg"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "Fiji region",
+"time": 1493076355870,
+"updated": 1493077460040,
+"tz": 720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kf1",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kf1.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 369,
+"net": "us",
+"code": "10008kf1",
+"ids": ",us10008kf1,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 4.531,
+"rms": 0.79,
+"gap": 71,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - Fiji region"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+173.2971,
+-17.8262,
+86.07
+]
+},
+"id": "us10008kf1"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "40km W of Valparaiso, Chile",
+"time": 1493074229320,
+"updated": 1493083573542,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008ke9",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008ke9.geojson",
+"felt": 1,
+"cdi": 4.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008ke9",
+"ids": ",us10008ke9,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.36,
+"rms": 0.6,
+"gap": 137,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.5 - 40km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.0554,
+-33.1066,
+19.55
+]
+},
+"id": "us10008ke9"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "29km WSW of Valparaiso, Chile",
+"time": 1493073835120,
+"updated": 1493083522059,
+"tz": -240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008ke3",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008ke3.geojson",
+"felt": 1,
+"cdi": 4.3,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 312,
+"net": "us",
+"code": "10008ke3",
+"ids": ",us10008ke3,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.266,
+"rms": 0.93,
+"gap": 103,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.5 - 29km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9315,
+-33.1237,
+20.88
+]
+},
+"id": "us10008ke3"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "47km W of Valparaiso, Chile",
+"time": 1493072516900,
+"updated": 1493077964685,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kdi",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kdi.geojson",
+"felt": 4,
+"cdi": 5.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 342,
+"net": "us",
+"code": "10008kdi",
+"ids": ",us10008kdi,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.419,
+"rms": 1.05,
+"gap": 77,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 47km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1331,
+-32.9743,
+22.1
+]
+},
+"id": "us10008kdi"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "92km SW of Merizo Village, Guam",
+"time": 1493072392380,
+"updated": 1493074073040,
+"tz": 600,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kds",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kds.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 385,
+"net": "us",
+"code": "10008kds",
+"ids": ",us10008kds,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.184,
+"rms": 0.65,
+"gap": 79,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 92km SW of Merizo Village, Guam"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+143.9938,
+12.762,
+33.35
+]
+},
+"id": "us10008kds"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "22km SSE of Hihifo, Tonga",
+"time": 1493072287240,
+"updated": 1493073526040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kdl",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kdl.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 369,
+"net": "us",
+"code": "10008kdl",
+"ids": ",us10008kdl,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.851,
+"rms": 0.98,
+"gap": 57,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 22km SSE of Hihifo, Tonga"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-173.6514,
+-16.1245,
+55.22
+]
+},
+"id": "us10008kdl"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "18km WSW of Valparaiso, Chile",
+"time": 1493071423510,
+"updated": 1493079409904,
+"tz": -240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kcv",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kcv.geojson",
+"felt": 1,
+"cdi": 5.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 370,
+"net": "us",
+"code": "10008kcv",
+"ids": ",us10008kcv,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.162,
+"rms": 0.68,
+"gap": 134,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 18km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.8163,
+-33.0851,
+26.63
+]
+},
+"id": "us10008kcv"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.1,
+"place": "45km WSW of Valparaiso, Chile",
+"time": 1493071110580,
+"updated": 1493093907042,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kcn",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kcn.geojson",
+"felt": 4,
+"cdi": 6.1,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 403,
+"net": "us",
+"code": "10008kcn",
+"ids": ",us10008kcn,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.402,
+"rms": 0.87,
+"gap": 137,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.1 - 45km WSW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.0966,
+-33.1379,
+10
+]
+},
+"id": "us10008kcn"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.4,
+"place": "33km WNW of Valparaiso, Chile",
+"time": 1493070385040,
+"updated": 1493125525039,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kcr",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kcr.geojson",
+"felt": 7,
+"cdi": 6.7,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 453,
+"net": "us",
+"code": "10008kcr",
+"ids": ",us10008kcr,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.287,
+"rms": 1,
+"gap": 81,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.4 - 33km WNW of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9547,
+-32.915,
+10
+]
+},
+"id": "us10008kcr"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "39km W of Valparaiso, Chile",
+"time": 1493070364140,
+"updated": 1493077489980,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kcs",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kcs.geojson",
+"felt": 2,
+"cdi": 6,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 386,
+"net": "us",
+"code": "10008kcs",
+"ids": ",us10008kcs,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.339,
+"rms": 0.97,
+"gap": 159,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 39km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.0372,
+-32.9722,
+22.05
+]
+},
+"id": "us10008kcs"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 6.9,
+"place": "39km W of Valparaiso, Chile",
+"time": 1493069906130,
+"updated": 1493471319760,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kce",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kce.geojson",
+"felt": 1276,
+"cdi": 8.7,
+"mmi": 6.96,
+"alert": "yellow",
+"status": "reviewed",
+"tsunami": 1,
+"sig": 1602,
+"net": "us",
+"code": "10008kce",
+"ids": ",at00ooxo40,pt17114000,us10008kce,",
+"sources": ",at,pt,us,",
+"types": ",dyfi,finite-fault,general-text,geoserve,impact-link,impact-text,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 0.351,
+"rms": 1.29,
+"gap": 104,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 6.9 - 39km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.0513,
+-33.0729,
+25
+]
+},
+"id": "us10008kce"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5,
+"place": "42km SW of Kaliandak, Indonesia",
+"time": 1493069341470,
+"updated": 1493070373040,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008kca",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008kca.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 1,
+"sig": 385,
+"net": "us",
+"code": "10008kca",
+"ids": ",us10008kca,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.923,
+"rms": 0.91,
+"gap": 37,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.0 - 42km SW of Kaliandak, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+105.3628,
+-6.044,
+57.94
+]
+},
+"id": "us10008kca"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "Fiji region",
+"time": 1493028540540,
+"updated": 1493038663040,
+"tz": 720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k8h",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k8h.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008k8h",
+"ids": ",us10008k8h,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 4.697,
+"rms": 1.06,
+"gap": 89,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - Fiji region"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+173.1373,
+-18.169,
+45.93
+]
+},
+"id": "us10008k8h"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "54km SW of Semisopochnoi Island, Alaska",
+"time": 1493018731930,
+"updated": 1493054765925,
+"tz": -600,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k7t",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k7t.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008k7t",
+"ids": ",ak15806055,us10008k7t,",
+"sources": ",ak,us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.201,
+"rms": 0.93,
+"gap": 80,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 54km SW of Semisopochnoi Island, Alaska"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+179.1433,
+51.5526,
+68.08
+]
+},
+"id": "us10008k7t"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.3,
+"place": "128km SE of Modayag, Indonesia",
+"time": 1493014431650,
+"updated": 1493015610040,
+"tz": 480,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k7d",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k7d.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 432,
+"net": "us",
+"code": "10008k7d",
+"ids": ",us10008k7d,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.322,
+"rms": 1.07,
+"gap": 44,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.3 - 128km SE of Modayag, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+125.2117,
+-0.0997,
+60.68
+]
+},
+"id": "us10008k7d"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "47km W of Valparaiso, Chile",
+"time": 1493006050510,
+"updated": 1493071807187,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k6u",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k6u.geojson",
+"felt": 9,
+"cdi": 3.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 315,
+"net": "us",
+"code": "10008k6u",
+"ids": ",us10008k6u,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.426,
+"rms": 0.7,
+"gap": 70,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.5 - 47km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1349,
+-33.1072,
+19.79
+]
+},
+"id": "us10008k6u"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "78km SW of San Juan del Sur, Nicaragua",
+"time": 1493004242610,
+"updated": 1493069153752,
+"tz": -360,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k6d",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k6d.geojson",
+"felt": 6,
+"cdi": 4.1,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 372,
+"net": "us",
+"code": "10008k6d",
+"ids": ",us10008k6d,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.86,
+"rms": 1.26,
+"gap": 158,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 78km SW of San Juan del Sur, Nicaragua"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-86.4606,
+10.8445,
+20.23
+]
+},
+"id": "us10008k6d"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.6,
+"place": "48km W of Valparaiso, Chile",
+"time": 1492976409840,
+"updated": 1493151751040,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k2i",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k2i.geojson",
+"felt": 60,
+"cdi": 7.1,
+"mmi": 4.14,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 0,
+"sig": 525,
+"net": "us",
+"code": "10008k2i",
+"ids": ",us10008k2i,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 0.429,
+"rms": 0.94,
+"gap": 69,
+"magType": "mww",
+"type": "earthquake",
+"title": "M 5.6 - 48km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1484,
+-33.0437,
+15.96
+]
+},
+"id": "us10008k2i"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.1,
+"place": "3km S of Cipatujah Selatan, Indonesia",
+"time": 1492970475450,
+"updated": 1493004038550,
+"tz": 420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k20",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k20.geojson",
+"felt": 13,
+"cdi": 5.4,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 1,
+"sig": 407,
+"net": "us",
+"code": "10008k20",
+"ids": ",us10008k20,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.487,
+"rms": 1.25,
+"gap": 45,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.1 - 3km S of Cipatujah Selatan, Indonesia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+108.0156,
+-7.7779,
+97.7
+]
+},
+"id": "us10008k20"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "Southern East Pacific Rise",
+"time": 1492965593390,
+"updated": 1492973151040,
+"tz": -420,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k1r",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k1r.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008k1r",
+"ids": ",us10008k1r,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 38.856,
+"rms": 0.56,
+"gap": 187,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - Southern East Pacific Rise"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-111.0851,
+-34.9952,
+10
+]
+},
+"id": "us10008k1r"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "South of the Fiji Islands",
+"time": 1492953663690,
+"updated": 1492956283040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008k0t",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008k0t.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008k0t",
+"ids": ",us10008k0t,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 6.22,
+"rms": 0.94,
+"gap": 107,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - South of the Fiji Islands"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-179.9352,
+-23.7031,
+528.3
+]
+},
+"id": "us10008k0t"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.1,
+"place": "34km SE of Shebunino, Russia",
+"time": 1492929428520,
+"updated": 1492989661800,
+"tz": 600,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jyr",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jyr.geojson",
+"felt": 4,
+"cdi": 3.4,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 402,
+"net": "us",
+"code": "10008jyr",
+"ids": ",us10008jyr,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.867,
+"rms": 0.71,
+"gap": 89,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.1 - 34km SE of Shebunino, Russia"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+142.1588,
+46.1977,
+10
+]
+},
+"id": "us10008jyr"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.1,
+"place": "224km S of Taron, Papua New Guinea",
+"time": 1492924893530,
+"updated": 1493247208176,
+"tz": 600,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jy5",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jy5.geojson",
+"felt": 1,
+"cdi": 2.5,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 1,
+"sig": 400,
+"net": "us",
+"code": "10008jy5",
+"ids": ",us10008jy5,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.529,
+"rms": 0.61,
+"gap": 48,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.1 - 224km S of Taron, Papua New Guinea"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+153.2782,
+-6.4787,
+10
+]
+},
+"id": "us10008jy5"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "37km W of Valparaiso, Chile",
+"time": 1492916536640,
+"updated": 1492994427193,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jwn",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jwn.geojson",
+"felt": 5,
+"cdi": 5,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 372,
+"net": "us",
+"code": "10008jwn",
+"ids": ",us10008jwn,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.332,
+"rms": 0.56,
+"gap": 68,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.9 - 37km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.029,
+-33.0709,
+17.26
+]
+},
+"id": "us10008jwn"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "52km W of Valparaiso, Chile",
+"time": 1492916410450,
+"updated": 1493051127856,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jw9",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jw9.geojson",
+"felt": 3,
+"cdi": 4.2,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 356,
+"net": "us",
+"code": "10008jw9",
+"ids": ",us10008jw9,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 0.462,
+"rms": 0.82,
+"gap": 87,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 52km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1845,
+-33.0754,
+5.68
+]
+},
+"id": "us10008jw9"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "34km W of Valparaiso, Chile",
+"time": 1492915957950,
+"updated": 1492994336413,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jvx",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jvx.geojson",
+"felt": 2,
+"cdi": 5.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 356,
+"net": "us",
+"code": "10008jvx",
+"ids": ",us10008jvx,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.301,
+"rms": 0.94,
+"gap": 134,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.8 - 34km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.9963,
+-33.0335,
+19.89
+]
+},
+"id": "us10008jvx"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.8,
+"place": "31km W of Valparaiso, Chile",
+"time": 1492915398680,
+"updated": 1492994310427,
+"tz": -240,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jw7",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jw7.geojson",
+"felt": 2,
+"cdi": 6,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 356,
+"net": "us",
+"code": "10008jw7",
+"ids": ",us10008jw7,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.271,
+"rms": 0.62,
+"gap": 143,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.8 - 31km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-71.96,
+-33.0192,
+21.25
+]
+},
+"id": "us10008jw7"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.9,
+"place": "42km W of Valparaiso, Chile",
+"time": 1492914965920,
+"updated": 1493150450040,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jvr",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jvr.geojson",
+"felt": 564,
+"cdi": 7.1,
+"mmi": 5.13,
+"alert": "green",
+"status": "reviewed",
+"tsunami": 0,
+"sig": 936,
+"net": "us",
+"code": "10008jvr",
+"ids": ",us10008jvr,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,losspager,moment-tensor,origin,phase-data,shakemap,",
+"nst": null,
+"dmin": 0.376,
+"rms": 0.97,
+"gap": 61,
+"magType": "mwp",
+"type": "earthquake",
+"title": "M 5.9 - 42km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.085,
+-33.0393,
+9.78
+]
+},
+"id": "us10008jvr"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "24km N of Gueiria, Venezuela",
+"time": 1492912339720,
+"updated": 1493001564747,
+"tz": -270,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jv5",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jv5.geojson",
+"felt": 15,
+"cdi": 3,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 344,
+"net": "us",
+"code": "10008jv5",
+"ids": ",us10008jv5,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 1.465,
+"rms": 1.41,
+"gap": 50,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 24km N of Gueiria, Venezuela"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-62.3022,
+10.8038,
+77.87
+]
+},
+"id": "us10008jv5"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.5,
+"place": "36km W of Valparaiso, Chile",
+"time": 1492912152910,
+"updated": 1492994279537,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jv4",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jv4.geojson",
+"felt": 2,
+"cdi": 5.4,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 313,
+"net": "us",
+"code": "10008jv4",
+"ids": ",us10008jv4,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.314,
+"rms": 0.98,
+"gap": 233,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.5 - 36km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.0114,
+-33.0129,
+24.83
+]
+},
+"id": "us10008jv4"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 5.3,
+"place": "12km E of Burgos, Philippines",
+"time": 1492910387780,
+"updated": 1493411821250,
+"tz": 480,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jux",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jux.geojson",
+"felt": 2,
+"cdi": 3.8,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 433,
+"net": "us",
+"code": "10008jux",
+"ids": ",us10008jux,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 2.282,
+"rms": 1.14,
+"gap": 87,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 5.3 - 12km E of Burgos, Philippines"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+126.3019,
+9.251,
+62.82
+]
+},
+"id": "us10008jux"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.9,
+"place": "48km W of Valparaiso, Chile",
+"time": 1492901202810,
+"updated": 1492919264215,
+"tz": -300,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008juc",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008juc.geojson",
+"felt": 17,
+"cdi": 4.1,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 376,
+"net": "us",
+"code": "10008juc",
+"ids": ",us10008juc,",
+"sources": ",us,",
+"types": ",dyfi,geoserve,moment-tensor,origin,phase-data,",
+"nst": null,
+"dmin": 0.424,
+"rms": 1.08,
+"gap": 69,
+"magType": "mwr",
+"type": "earthquake",
+"title": "M 4.9 - 48km W of Valparaiso, Chile"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-72.1389,
+-32.9719,
+10.6
+]
+},
+"id": "us10008juc"
+},
+{
+"type": "Feature",
+"properties": {
+"mag": 4.7,
+"place": "153km W of Havelu, Tonga",
+"time": 1492900400700,
+"updated": 1492901387040,
+"tz": -720,
+"url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008jua",
+"detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us10008jua.geojson",
+"felt": null,
+"cdi": null,
+"mmi": null,
+"alert": null,
+"status": "reviewed",
+"tsunami": 0,
+"sig": 340,
+"net": "us",
+"code": "10008jua",
+"ids": ",us10008jua,",
+"sources": ",us,",
+"types": ",geoserve,origin,phase-data,",
+"nst": null,
+"dmin": 6.121,
+"rms": 1.09,
+"gap": 80,
+"magType": "mb",
+"type": "earthquake",
+"title": "M 4.7 - 153km W of Havelu, Tonga"
+},
+"geometry": {
+"type": "Point",
+"coordinates": [
+-176.6814,
+-21.3452,
+251.22
+]
+},
+"id": "us10008jua"
+}
+],
+"bbox": [
+-179.9352,
+-65.0051,
+5.68,
+179.1433,
+63.1296,
+574.18
+]
+}
