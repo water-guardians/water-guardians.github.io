@@ -1,0 +1,55 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.aside {
+	background-color: #333;
+	box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.6);
+	color: #ccc;
+	display: flex;
+	flex-direction: column;	
+	height: 100%;
+	width: 20%;
+	z-index: 9999;
+}
+
+.map {
+	flex-grow: 2;
+	height: 100%;
+	width: 80%;
+}
+
+.aside .app-name {
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+	height: 100px;
+}
+
+.btn {
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+	color: #ccc;
+    cursor: pointer;
+    height: 50px;
+   	width: 100%;
+}
+
+.btn:hover {
+	background-color: #2580a2;
+}
+
+.btn-active {
+	background-color: #2580a2;
+}
+
+.btn:active {
+}

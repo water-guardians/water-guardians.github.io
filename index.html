@@ -1,155 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <meta http-equiv="Access-Control-Allow-Origin" content="*">
-    <title>Accessible Map</title>
+    <title>Water Guardians</title>
     <link rel="stylesheet" href="https://openlayers.org/en/v4.1.0/css/ol.css" type="text/css">
-    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
-    <script src="https://openlayers.org/en/v4.1.0/build/ol.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-    <style>
-      a.skiplink {
-        position: absolute;
-        clip: rect(1px, 1px, 1px, 1px);
-        padding: 0;
-        border: 0;
-        height: 1px;
-        width: 1px;
-        overflow: hidden;
-      }
-      a.skiplink:focus {
-        clip: auto;
-        height: auto;
-        width: auto;
-        background-color: #fff;
-        padding: 0.3em;
-      }
-      #map:focus {
-        outline: #4A74A8 solid 0.15em;
-      }
-      #map {
-        height: 400px;
-      }
-    </style>
+    <link rel="stylesheet" href="app.css" type="text/css">
   </head>
   <body>
-    <a class="skiplink" href="#map">Go to map</a>
-    <div id="map" class="map" tabindex="0"></div>
-    <button id="zoom-out">Zoom out</button>
-    <button id="zoom-in">Zoom in</button>
-    <button class="btn-layer" id="1" data-layer="0">Ocultar Layer 1</button>
-    <button class="btn-layer" id="2" data-layer="1">Ocultar Layer 2</button>
-    <button class="btn-layer" id="3" data-layer="2">Ocultar Layer 3</button>
-    <script>
 
-      var layer1 = new ol.layer.Vector({
-        title: 'Layer 1',
-        source: new ol.source.Vector({
-         url: 'data1.json',
-         format: new ol.format.GeoJSON()
-        }),
-        style: new ol.style.Style({
-         image: new ol.style.Circle({
-           radius: 15,
-           fill: new ol.style.Fill({color: 'blue'})
-         })
-        })
-      });
-
-      var layer2 = new ol.layer.Vector({
-        title: 'Layer 2',
-        source: new ol.source.Vector({
-         url: 'data2.json',
-         format: new ol.format.GeoJSON()
-        }),
-        style: new ol.style.Style({
-         image: new ol.style.Circle({
-           radius: 10,
-           fill: new ol.style.Fill({color: 'red'})
-         })
-        })
-      });
-
-      var layer3 = new ol.layer.Vector({
-        title: 'Layer 3',
-        source: new ol.source.Vector({
-         url: 'regiones_michoacan.json',
-         format: new ol.format.GeoJSON()
-        }),
-        style:new ol.style.Style({
-          stroke: new ol.style.Stroke({
-            color: 'blue',
-            width: 3
-          }),
-          fill: new ol.style.Fill({
-            color: 'rgba(0, 0, 255, 0.1)'
-          })
-        }),
-      });
-
-      var layers = [
-        layer1,
-        layer2,
-        layer3
-      ];
-
-      var map = new ol.Map({
-        layers: [
-          new ol.layer.Tile({
-            source: new ol.source.OSM()
-          }),
-          layers[0],
-          layers[1],
-          layers[2] 
-        ],
-        target: 'map',
-        controls: ol.control.defaults({
-          attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
-            collapsible: false
-          })
-        }),
-        view: new ol.View({
-          center: ol.proj.fromLonLat([-101.18, 19.70]),
-          zoom: 8 
-        })
-      });
-
-      $('.btn-layer').click(function(event) {
-        var layerIndex = $(event.target).data('layer');
-        var layer = layers[layerIndex];
-        var layerVisibility = layer.getVisible();
-
-        layer.setVisible(!layerVisibility);
-
-        var btnText = '';
-
-        if(layerVisibility) {
-          btnText = 'Mostrar '
-        }
-        else {
-          btnText = 'Ocultar ';
-        }
-
-        btnText += layer.get('title');
-
-        $(event.target).html(btnText);
-      });
+    <div class="container">
       
-      document.getElementById('zoom-out').onclick = function() {
-        var view = map.getView();
-        var zoom = view.getZoom();
-        view.setZoom(zoom - 1);
-      };
+      <aside class="aside">
+        <div class="app-name">
+          <h3>Water Guardians</h3>
+        </div>
 
-      document.getElementById('zoom-in').onclick = function() {
-        var view = map.getView();
-        var zoom = view.getZoom();
-        view.setZoom(zoom + 1);
-      };
-    </script>
+        <button class="btn btn-layer btn-active" data-layer="0">Ocultar Layer 1</button>
+        <button class="btn btn-layer btn-active" data-layer="1">Ocultar Layer 2</button>
+        <button class="btn btn-layer btn-active" data-layer="2">Ocultar Layer 3</button>
+      </aside>
+
+      <div id="map" class="map" tabindex="0"></div>
+
+    </div>
+
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.1.0/build/ol.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>
