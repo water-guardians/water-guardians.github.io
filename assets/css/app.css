@@ -30,7 +30,14 @@ html, body {
 
 .aside .app-name {
     border-bottom: 1px solid rgba(0,0,0,0.3);
-	height: 100px;
+	height: auto;
+	width: 100%
+}
+
+.aside .logo {
+	display: block;
+	width: 80%;
+	margin: auto;
 }
 
 .btn {
@@ -53,3 +60,4 @@ html, body {
 
 .btn:active {
 }
+

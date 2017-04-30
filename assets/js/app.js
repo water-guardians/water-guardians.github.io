@@ -1,7 +1,7 @@
   var layer1 = new ol.layer.Vector({
-    title: 'Layer 1',
+    title: 'Mundo',
     source: new ol.source.Vector({
-     url: 'morelia3.json',
+     url: '../../data/dam/World.json',
      format: new ol.format.GeoJSON()
     }),
     style:new ol.style.Style({
@@ -16,15 +16,15 @@
   });
 
   var layer2 = new ol.layer.Vector({
-    title: 'Layer 2',
+    title: 'Presas',
     source: new ol.source.Vector({
-     url: 'data2.json',
+     url: '../../data/dam/Mexico.json',
      format: new ol.format.GeoJSON()
     }),
     style: new ol.style.Style({
      image: new ol.style.Circle({
-       radius: 10,
-       fill: new ol.style.Fill({color: 'red'})
+       radius: 5,
+       fill: new ol.style.Fill({color: 'rgba(0, 145, 255, 1)'})
      })
     })
   });
@@ -32,7 +32,7 @@
   var layer3 = new ol.layer.Vector({
     title: 'Layer 3',
     source: new ol.source.Vector({
-     url: 'regiones_michoacan.json',
+     url: '../../data/regiones_michoacan.json',
      format: new ol.format.GeoJSON()
     }),
     style:new ol.style.Style({
@@ -46,24 +46,28 @@
     }),
   });
 
-  var layers = [
-    layer1,
-    layer2,
-    layer3
-  ];
+  var layers = {
+    mundo: layer1,
+    presas: layer2,
+    michoacan: layer3
+  };
+
+  var mapLayers = [];
+
+  mapLayers.push(new ol.layer.Tile({
+      source: new ol.source.OSM()
+  }));
+
+  for (var prop in layers) {
+    layers[prop].setVisible(false);
+    mapLayers.push(layers[prop]);
+  }
 
   var map = new ol.Map({
-    layers: [
-      new ol.layer.Tile({
-        source: new ol.source.OSM()
-      }),
-      layers[0],
-      layers[1],
-      layers[2] 
-    ],
+    layers: mapLayers,
     target: 'map',
     controls: ol.control.defaults({
-      attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+      attributionOptions: ({
         collapsible: false
       })
     }),
@@ -74,23 +78,13 @@
   });
 
   $('.btn-layer').click(function(event) {
-    var layerIndex = $(event.target).data('layer');
-    var layer = layers[layerIndex];
-    var layerVisibility = layer.getVisible();
+    var target = $(event.target);
 
-    layer.setVisible(!layerVisibility);
+    var layerId = target.data('layer');
+    var layer = layers[layerId];
+    var visibility = layer.getVisible();
 
-    var btnText = '';
+    layer.setVisible(!visibility);
 
-    if(layerVisibility) {
-      btnText = 'Mostrar '
-    }
-    else {
-      btnText = 'Ocultar ';
-    }
-
-    btnText += layer.get('title');
-
-    $(event.target).html(btnText);
     $(event.target).toggleClass('btn-active');
   });

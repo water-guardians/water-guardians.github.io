@@ -3,7 +3,7 @@
   <head>
     <title>Water Guardians</title>
     <link rel="stylesheet" href="https://openlayers.org/en/v4.1.0/css/ol.css" type="text/css">
-    <link rel="stylesheet" href="app.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
   </head>
   <body>
 
@@ -11,12 +11,12 @@
       
       <aside class="aside">
         <div class="app-name">
-          <h3>Water Guardians</h3>
+          <img src="assets/img/logo.png" class="logo">
         </div>
 
-        <button class="btn btn-layer btn-active" data-layer="0">Ocultar Layer 1</button>
-        <button class="btn btn-layer btn-active" data-layer="1">Ocultar Layer 2</button>
-        <button class="btn btn-layer btn-active" data-layer="2">Ocultar Layer 3</button>
+        <button class="btn btn-layer" data-layer="mundo">Mundo</button>
+        <button class="btn btn-layer" data-layer="presas">Presas</button>
+        <button class="btn btn-layer" data-layer="michoacan">Michoacan</button>
       </aside>
 
       <div id="map" class="map" tabindex="0"></div>
@@ -26,6 +26,6 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
     <script src="https://openlayers.org/en/v4.1.0/build/ol.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
