@@ -18,7 +18,7 @@
   var layer2 = new ol.layer.Vector({
     title: 'Presas',
     source: new ol.source.Vector({
-     url: '../../data/dam/Mexico.json',
+     url: '../../data/dam/World.json',
      format: new ol.format.GeoJSON()
     }),
     style: new ol.style.Style({
@@ -55,7 +55,7 @@
   var mapLayers = [];
 
   mapLayers.push(new ol.layer.Tile({
-      source: new ol.source.OSM()
+    source: new ol.source.OSM()
   }));
 
   for (var prop in layers) {
@@ -63,6 +63,7 @@
     mapLayers.push(layers[prop]);
   }
 
+  // Map Initialization
   var map = new ol.Map({
     layers: mapLayers,
     target: 'map',
@@ -77,6 +78,9 @@
     })
   });
 
+  /*
+    Event listener to show/hide the layers
+  */
   $('.btn-layer').click(function(event) {
     var target = $(event.target);
 

@@ -19,10 +19,12 @@ html, body {
 	flex-direction: column;	
 	height: 100%;
 	width: 20%;
+	position: relative;
 	z-index: 9999;
 }
 
 .map {
+	position: relative;
 	flex-grow: 2;
 	height: 100%;
 	width: 80%;
@@ -58,6 +60,9 @@ html, body {
 	background-color: #2580a2;
 }
 
-.btn:active {
+.wiki-btn {
+	cursor: pointer;
+	display: block;
+    position: absolute;
+    bottom: 0;        
 }
-
