@@ -48,8 +48,7 @@
 
   var cloudsLayer = new ol.layer.Tile({
     source: new ol.source.WMTS({
-      url: "https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi",
-//      url: "//map1{a-c}.vis.earthdata.nasa.gov/wmts-geo/wmts.cgi?TIME=2013-06-16",
+      url: "map1{a-c}.vis.earthdata.nasa.gov/wmts-geo/wmts.cgi?TIME=2013-06-16",
       layer: "MODIS_Terra_CorrectedReflectance_TrueColor",
       format: "image/jpeg",
       matrixSet: "EPSG4326_250m",
