@@ -1,153 +1,34 @@
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Wather Guardians</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link href="assets/css/main.css" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
+  <head>
+    <title>Water Guardians</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.1.0/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/app.css" type="text/css">
+  </head>
+  <body>
 
-        <!-- Header -->
-            <header id="header" class="alt">
-                <div class="logo"><a href="index.html">Wather <span>Guardians</span></a></div>
-                <a href="#menu">Menu</a>
-            </header>
+    <div class="container">
+      
+      <aside class="aside">
+        <div class="app-name">
+          <img src="assets/img/logo.png" class="logo">
+        </div>
 
-        <!-- Nav -->
-        <nav id="menu">
-    <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="wiki.html">Wiki</a></li>
-        <li><a href="#">WEB APP</a></li>
-    </ul>
-</nav>
-        <!-- Banner -->
-            <section id="banner">
-                <div class="inner">
-                    <header>
-                        <h1>Wather <span>Guardians</span></h1>
-                    </header>
-                </div>
-            </section>
+        <button class="btn btn-layer" data-layer="patzcuaro">Patzcuaro's hidrolycal basin</button>
+        <button class="btn btn-layer" data-layer="presas">Water dams</button>
+        <button class="btn btn-layer" data-layer="michoacan">Michoacan</button>
 
-        <!-- Main -->
-            <div id="main">
+        <button class="btn wiki-btn">How to use</button>
+      </aside>
 
-                <!-- Section -->
-                    <section class="wrapper style1">
-                        <div class="inner">
-                            <!-- 2 Columns -->
-                                <div class="flex flex-2">
-                                    <div class="col col1">
-                                        <div class="image round fit">
-                                            <a href="#" class="link"><img src="assets/images/4.jpg" alt="" /></a>
-                                        </div>
-                                    </div>
-                                    <div class="col col2">
-                                        <h3>What does Water Guardians do?</h3>
-                                        <p>It implements web applications for integrated management of local water resources (Morelia) by gathering information to know the temporal variations of water levels and to predict water resources availability, as well as to plan strategies for their management.</p>
-                                    </div>
-                                </div>
-                        </div>
-                    </section>
+      <div id="map" class="map" tabindex="0"></div>
 
-                <!-- Section -->
-                    <section class="wrapper style2">
-                        <div class="inner">
-                            <div class="flex flex-2">
-                                <div class="col col2">
-                                    <h3>What does the system provides</h3>
-                                    <p>The Water Guardians platform provides integrated visual information on local water resources.</p>
-                                    <p>
-                                        <ul>
-                                            <li>Water Mains</li>
-                                            <li>Surface water</li>
-                                            <li>Weather Forecasts</li>
-                                        </ul>
-                                    </p>
-                                    <P>With this information we will probide weather forecast and suggest planned startegies do farmers and goverment sector in order to preserve hidric.</P>
-                                </div>
-                                <div class="col col1 first">
-                                    <div class="image round fit">
-                                        <a href="generic.html" class="link"><img src="assets/images/3.jpg" alt="" /></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
 
-                <!-- Section -->
-                    <section class="wrapper style1">
-                        <div class="inner">
-                            <header class="align-center">
-                                <h2>TEAM</h2>
+    </div>
 
-                            </header>
-                            <div class="flex flex-3">
-                                <div class="col align-center">
-                                    <p>Romario Ramirez</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Ramsés Nieves</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Jocelyn Pedraza</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Gustavo Escutia</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Miguel Nuñez</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Alberto Flores</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Joel Álvarez</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Raúl Naranjo</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Erik Mora</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Daniel Hernández</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Diego Moszqueda</p>
-                                </div>
-                                <div class="col align-center">
-                                    <p>Carlos Aguilera</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-            </div>
-
-        <!-- Footer -->
-            <footer id="footer">
-                <div class="copyright">
-                    <ul class="icons">
-                        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                        <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
-                    </ul>
-                    <p>&copy; 2017 Wather Guardians. All rights reserved. Design: <a href="#">Whater Guardians</a>.</p>
-                </div>
-            </footer>
-
-        <!-- Scripts -->
-            <script src="assets/js/jquery.min.js"></script>
-            <script src="assets/js/jquery.scrolly.min.js"></script>
-            <script src="assets/js/jquery.scrollex.min.js"></script>
-            <script src="assets/js/skel.min.js"></script>
-            <script src="assets/js/util.js"></script>
-            <script src="assets/js/main.js"></script>
-
-    </body>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://openlayers.org/en/v4.1.0/build/ol.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>
